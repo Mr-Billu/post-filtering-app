@@ -3,10 +3,11 @@ import './App.css'
 import './boxes.css'
 
 
-
+    
 function App() {
 
  const Job = [ 
+
     {
       company : "Photosnap",
       position : "Senior Frontend Developer",
@@ -145,6 +146,85 @@ function App() {
         "Frontend", "Junior", "React", "Sass", "Javascript"
       ]
     },
+    {
+      company : "Loop Studios",
+      position : "Software Engineer",
+      new : "NEW!",
+      fatured : "Featured", 
+      time : "1w ago",
+      location : "Worldwide",
+      jobtime : "Full Time",
+      skills : [
+        "Sass", "JavaScript", "Ruby", "RoR"
+      ]
+    },
+    
+    {
+      company : "FaceIt",
+      position : "Junior Backend Developer",
+      new : "NEW!",
+      fatured : "Featured",
+      time : "2w ago", 
+      location : "UK only",
+      jobtime : "Full Time",
+      skills : [
+        "Python", "React", "Django"
+      ]
+    },
+    
+    {
+      company : "Shortly",
+      position : "Junior Developer",
+      new : "NEW!",
+      fatured : "Featured",
+      time : "2w ago",
+      location : "Worldwide", 
+      jobtime : "Full Time",
+      skills : [
+        "HTML", "Sass", "JavaScript"
+      ]
+    },
+    
+    {
+      company : "Insure",
+      position : "Junior Frontend Developer",
+      new : "NEW!",
+      fatured : "Featured",
+      time : "2w ago",
+      location : "USA only",
+      jobtime : "Full Time", 
+      skills : [
+        "Vue", "JavaScript", "Sass"
+      ]
+    },
+    
+    {
+      company : "Eyecam Co.",
+      position : "Full Stack Engineer",
+      new : "NEW!",
+      fatured : "Featured",
+      time : "3w ago",
+      location : "Worldwide",
+      jobtime : "Full Time",
+      skills : [
+        "JavaScript", "Django", "React", "Python"
+      ]
+    },
+    
+    {
+      company : "The Air Filter Company",
+      position : "Front-end Dev",
+      new : "NEW!",
+      fatured : "Featured", 
+      time : "1mo ago",
+      location : "Worldwide",
+      jobtime : "Part Time",
+      skills : [
+        "React", "Sass", "JavaScript"
+      ]
+    }
+
+    
   ]
   
   const [filters, setfilters] = useState([]);
